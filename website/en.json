@@ -34,7 +34,7 @@
 
 	"about": {
 		"ourPolicy": "Our policy",
-		"policy": "<b>I</b>nternet privacy is a right. Why should we accept that we wouldn't accept in our daily life (offline) ? For many years, private companies such as Google, Facebook, etc... as well as government agencies spy on us to gather informations about us everyday on the web. However, we are able to counter this mass spying using cryptography but too few projects allow us to protect us properly. But today, we are fortunate to have a safe alternative for our mails: <span>ProtonMail</span>, which allows encryption end-to-end thereof.<br /><b>I</b>t's in that perspective that we launched the development of Quanta Cloud, to offer an alternative for storing securely your documents online. Our policy requires us to encrypt end-to-end files making you the only true owner thereof.",
+		"policy": "<b>I</b>nternet privacy is a right. Why should we accept that we wouldn't accept in our daily life (offline) ? For many years, private companies such as Google, Facebook, etc... as well as government agencies spy on us to gather informations about us everyday on the web. However, we are able to counter this mass spying using cryptography but too few projects allow us to protect us properly. But today, we are fortunate to have a safe alternative for our mails: <span>ProtonMail</span>, which allows encryption end-to-end thereof.<br /><b>I</b>t's in this perspective that we launched the development of Quanta Cloud, to offer an alternative for storing securely your documents online. Our policy requires us to encrypt end-to-end files making you the only true owner thereof.",
 		"ourTeam": "Our team",
 		"PaulRole": "Co-founder &amp; System and network admin",
 		"PaulLife": "Paul is a high school student who likes many sciences and IT. He manages the servers and, assisted by Romain, Quanta Cloud's team. Privacy on Internet is a subject very important to him. Not forgetting that he takes a lot of interest in manga, anime, dramas, Japan, and the open source community.",
@@ -45,9 +45,9 @@
 		"DylanRole": "Back-end developer",
 		"DylanLife": "Dylan develops with Quentin the back-end, passionate about IT, he's currently studying IT and networking and then, wishes to do a professional bachelor degree in web development.",
 		"ArnaudRole": "Designer",
-		"ArnaudLife": "Arnaud is a physics student in the same class as Romain. Passionate about computers and electronics, Arnaud coded all the scripts allowing him to manage his house with his tablet. His multiple skills around Photoshop allows him to be the designer of the project. Later, he plans to work around home automation and renewable energy.",
+		"ArnaudLife": "Arnaud is a physics student in the same class as Romain. Passionate about computers and electronics, Arnaud have coded all the scripts allowing him to manage his house with his tablet. His multiple skills around Photoshop allows him to be the designer of the project. Later, he plans to work around home automation and renewable energy.",
 		"MatthieuRole": "Android developer",
-		"MatthieuLife": "Matthieu is an Android developer, he develops the Quanta Cloud Android app. Currently in the same section as Quentin and Dylan, he studied web development, object oriented, and networks. He aims for Telecom Nancy school to become a software architect. He loves video games and going out with friends.",
+		"MatthieuLife": "Matthieu is an Android developer, he develops the Quanta Cloud Android app. Currently in the same section as Quentin and Dylan, he's studiying web development, object oriented, and networks. He aims for Telecom Nancy school to become a software architect. He loves video games and going out with friends.",
 		"thanksTo": "Thanks to"
 	},
 
@@ -67,14 +67,14 @@
 		"conferenceFinancing": "Participate in conferences financing",
 		"why": "Why ?",
 		"whyDonate": "Why donate ?",
-		"whyDonateTxt": "Our team consists of students, not professionals strictly speaking. So, we are not paid by any job. If we need money, we must devote our time to work, which's less time to work on Quanta Cloud or on our studies. <br /> If by your donations, we manage to strike a balance and we don't necessarily need to work to support us, then we can devote ourselves even more to the development of Quanta Cloud."
+		"whyDonateTxt": "Our team is composed of students, not professionals strictly speaking. So, we are not paid by any job. If we need money, we must devote our time to work, which's less time to work on Quanta Cloud or on our studies. <br /> If by your donations, we manage to strike a balance and we don't necessarily need to work to support us, then we can devote ourselves even more to the development of Quanta Cloud."
 	},
 
 	"help": {
-		"losePwd": "I lost my password, how to recover it ?",
+		"losePwd": "I lost my password, how can I recover it ?",
 		"losePwdAns": "If this is your identification password, then click on \"Forgot password?\" on the login page. Your password will be reset and an email will be sent with a temporary password.<br />However, if this is your decryption password, it's impossible for us to redefine one and you must consider that all your files are lost.",
-		"whoCanAccessMyFiles": "Who can access my files?",
-		"whoCanAccessMyFilesAns": "Only you can access your files. Without going into technical terms, you need a unique key (personal) to encrypt and decrypt your files and this key is itself encrypted using your encryption password. Thus, nobody, not even we, can access your files, you apart.",
+		"whoCanAccessMyFiles": "Who can access my files ?",
+		"whoCanAccessMyFilesAns": "Only you can access your files. Without technical terms, you need a pair of keys (public and private) to encrypt and decrypt your files and these keys are themselves encrypted using your encryption password. Thus, nobody, not even we, can access your files, you apart.",
 		"howEncrypted": "How my files are encrypted ?",
 		"howEncryptedAns": "Your files are encrypted end-to-end thanks to <a href='http://openpgpjs.org/'>OpenPGP.js</a> at your browser using your personal key, also decrypted in your browser. Thus, data that are sent are already encrypted and nobody else except you can decrypt them.",
 		"howFunded": "How is funded Quanta Cloud ? It receives helps from companies ?",
