@@ -76,7 +76,7 @@
 		"whoCanAccessMyFiles": "Who can access my files ?",
 		"whoCanAccessMyFilesAns": "Only you can access your files. Without technical terms, you need a pair of keys (public and private) to encrypt and decrypt your files and these keys are themselves encrypted using your encryption password. Thus, nobody, not even we, can access your files, you apart.",
 		"howEncrypted": "How my files are encrypted ?",
-		"howEncryptedAns": "Your files are encrypted end-to-end thanks to <a href='http://openpgpjs.org/'>OpenPGP.js</a> at your browser using your personal key, also decrypted in your browser. Thus, data that are sent are already encrypted and nobody else except you can decrypt them.",
+		"howEncryptedAns": "Your files are encrypted end-to-end thanks to <a href='http://bitwiseshiftleft.github.io/sjcl/'>SJCL</a> at your browser using your personal key, also decrypted in your browser. Thus, data that are sent are already encrypted and nobody else except you can decrypt them.",
 		"howFunded": "How is funded Quanta Cloud ? It receives helps from companies ?",
 		"howFundedAns": "No, Quanta Cloud's policy is to not belong to any company (except ours), not to receive help from big companies, in order to not jeopardize our privacy policy, etc... Thus, Quanta Cloud is only funded through your donations. You can take a ride in the <a href='Donate'>'Donate' section</a> if you are interested.",
 		"helpTerrorism": "Are you trying to help terrorists or evil organizations ?",
