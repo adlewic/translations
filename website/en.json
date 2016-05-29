@@ -40,7 +40,9 @@
 		"PaulLife": "Paul is a high school student who likes many sciences and IT. He manages the servers and, Quanta Cloud team. Privacy on Internet is a subject very important to him. Not forgetting that he takes a lot of interest in mangas, animes, dramas, Japan, and the open source community.",
 		"DylanRole": "Back-end developer",
 		"DylanLife": "Dylan develops the back-end, passionate about IT, he's currently studying IT and networking and then, wishes to do a professional bachelor degree in web development.",
-		"thanksTo": "Thanks to"
+    "AnschaireRole": "Front-end developer",
+    "AnschaireLife": "Anschaire is passionate about IT since he's kid. He develops the front-end. He's actually an high school student, and want to become engineer.",
+    "thanksTo": "Thanks to"
 	},
 
 	"adventure": {
