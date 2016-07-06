@@ -31,3 +31,7 @@ Here, we see that "global" is the "category", it is used in the code to identify
 "home" is the "id" of the translation text, it is used in the code to identify which text we'll display. (DO NOT OVERWIRTE)
 
 "Encrypt your files" is the translation text, it's what you need to translate. (You can overwrite)
+
+### Mistakes
+
+It doesn't matter if you made a/several mistakes, others contributors will correct your mistakes.
