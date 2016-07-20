@@ -35,3 +35,7 @@ Here, we see that "global" is the "category", it is used in the code to identify
 ### Mistakes
 
 It doesn't matter if you made a/several mistakes, others contributors will correct your mistakes.
+
+
+### Pull Request
+You can write your name or pseudo on AUTHORS in your PR.
