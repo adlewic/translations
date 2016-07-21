@@ -1,7 +1,6 @@
 ### Before translating
 
-Copy en.json or fr.json, or the .json you prefere in the language
-you want to translate.
+The templates are en.json and fr.json
 
 Example : I'm french, I know very well the French language, and i
 want to translate in Spanish.
@@ -36,6 +35,9 @@ Here, we see that "global" is the "category", it is used in the code to identify
 
 It doesn't matter if you made a/several mistakes, others contributors will correct your mistakes.
 
+### Corrections
+
+If you see a translation mistake, then you can open an issue or make a pull request.
 
 ### Pull Request
 You can write your name or pseudo on AUTHORS in your PR.
