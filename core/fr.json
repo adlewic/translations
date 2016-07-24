@@ -2,7 +2,7 @@
     "Global": {
         "home": "Accueil",
         "register": "Inscription",
-        "back": "Retour à Quanta Cloud",
+        "back": "Retour à Muoium Cloud",
         "favorites": "Favoris",
         "login": "Connexion",
         "notready": "L'interface n'est pas encore prête",
@@ -58,8 +58,8 @@
         "error": "Une erreur est survenue lors de la création du compte.",
         "bruteforceErr1": "Attention : Suite à un grand nombre de requêtes de votre part, il ne vous reste plus que 3 tentatives",
         "bruteforceErr2": "Vous avez atteint le nombre maximal de requêtes autorisées.",
-        "subject": "Quanta Cloud - Validez votre compte",
-        "message": "Bienvenue sur Quanta Cloud et merci pour votre inscription.<br />Afin de valider votre compte, suivez ce lien : <a href='https://quantacloud.ch/core/Validate/Key/[id_user]/[key]'>https://quantacloud.ch/core/Validate/Key/[id_user]/[key]</a><br />Cordialement,<br />L'équipe Quanta Cloud<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre."
+        "subject": "Muoium Cloud - Validez votre compte",
+        "message": "Bienvenue sur Muoium Cloud et merci pour votre inscription.<br />Afin de valider votre compte, suivez ce lien : <a href='https://quantacloud.ch/core/Validate/Key/[id_user]/[key]'>https://quantacloud.ch/core/Validate/Key/[id_user]/[key]</a><br />Cordialement,<br />L'équipe Quanta Cloud<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre."
     },
 
     "Login": {
