@@ -2,7 +2,7 @@
     "Global": {
         "home": "Accueil",
         "register": "Inscription",
-        "back": "Retour à Muoium Cloud",
+        "back": "Retour à Quanta Cloud",
         "favorites": "Favoris",
         "login": "Connexion",
         "notready": "L'interface n'est pas encore prête",
@@ -12,7 +12,9 @@
         "user": "Desktop",
         "validate": "Valider l'adresse email",
         "refresh": "Actualiser",
-        "profile": "Profil"
+        "profile": "Profil",
+        "mail_sent": "Un email vous a été envoyé, veuillez vérifier votre boîte de réception et vos spams. Si vous n'avez rien reçu au bout de 5mn, tentez à nouveau :",
+        "submit": "Valider"
     },
 
     "UserMenu": {
@@ -34,7 +36,8 @@
     "Error": {
         "e404": "Erreur : Page non trouvée",
         "default": "Une erreur est survenue",
-        "form": "Erreur dans le formulaire"
+        "form": "Erreur dans le formulaire",
+        "pp": "Impossible de modifier votre passphrase pour le moment"
 	},
 
     "Register": {
@@ -58,8 +61,8 @@
         "error": "Une erreur est survenue lors de la création du compte.",
         "bruteforceErr1": "Attention : Suite à un grand nombre de requêtes de votre part, il ne vous reste plus que 3 tentatives",
         "bruteforceErr2": "Vous avez atteint le nombre maximal de requêtes autorisées.",
-        "subject": "Muoium Cloud - Validez votre compte",
-        "message": "Bienvenue sur Muoium Cloud et merci pour votre inscription.<br />Afin de valider votre compte, suivez ce lien : <a href='https://quantacloud.ch/core/Validate/Key/[id_user]/[key]'>https://quantacloud.ch/core/Validate/Key/[id_user]/[key]</a><br />Cordialement,<br />L'équipe Quanta Cloud<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre."
+        "subject": "Quanta Cloud - Validez votre compte",
+        "message": "Bienvenue sur Quanta Cloud et merci pour votre inscription.<br />Afin de valider votre compte, suivez ce lien : <a href='https://quantacloud.ch/core/Validate/Key/[id_user]/[key]'>https://quantacloud.ch/core/Validate/Key/[id_user]/[key]</a><br />Cordialement,<br />L'équipe Quanta Cloud<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre."
     },
 
     "Login": {
@@ -71,14 +74,16 @@
     },
 
     "Validate": {
-        "message": "Erreur : La clé de validation est incorrecte, connectez vous pour envoyer un nouveau mail de validation",
+        "message": "Erreur : La clé de validation est incorrecte, connectez-vous pour envoyer un nouveau mail de validation",
         "wait": "Veuillez patienter une minute avant d'envoyer un nouveau mail de validation",
         "sendmess": "Suivez le lien donné dans l'email pour activer votre compte",
         "sendmail": "Envoyer un nouvel email"
+        "sendmess": "Suivez le lien présent dans l'email pour activer votre compte",
+        "sendmail": "Envoyer un nouvel mail"
     },
 
     "Profile": {
-        "changelogin": "Modifier votre pseudo",
+        "changelogin": "Modifier votre nom d'utilisateur",
         "changepwd": "Modifier votre mot de passe",
         "changepp": "Modifier votre passphrase",
         "newlogin": "Nouveau nom d'utilisateur",
@@ -93,5 +98,14 @@
         "badOldPassphrase": "Votre ancienne passphrase ne correspond pas",
         "getpwd": "Impossible de récupérer le mot de passe",
         "getpp": "Impossible de récupérer la passphrase"
+    },
+
+    "LostPass": {
+        "updateErr": "Impossible de mettre à jour vos informations",
+        "updateOk": "Vos informations ont bien été mises à jour",
+        "errmessage": "Erreur : La clé de validation est incorrecte ou est expirée, veuillez <a href='LostPass'>refaire une demande de mot de passe perdu</a> et saisir votre nom d'utilisateur ou votre email.",
+        "user": "Votre adresse email ou nom d'utilisateur",
+        "subject": "Quanta Cloud - Mot de passe oublié",
+        "message": "Bonjour,<br />Afin de modifier votre mot de passe ou votre passphrase, veuillez suivre ce lien : <a href='https://quantacloud.ch/core/LostPass/Key/[id_user]/[key]'>https://quantacloud.ch/core/LostPass/Key/[id_user]/[key]</a><br />Cordialement,<br />L'équipe Quanta Cloud<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre."
     }
 }

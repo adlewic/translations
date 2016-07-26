@@ -2,7 +2,7 @@
     "Global": {
         "home": "Главная",
         "register": "Регистрация",
-        "back": "Назад на Muoium Cloud",
+        "back": "Назад на Quanta Cloud",
         "favorites": "Закладки",
         "login": "Логин",
         "notready": "Интерфейс еще не готов",
@@ -12,7 +12,9 @@
         "user": "Desktop",
         "validate": "Validate email",
         "refresh": "Обновление",
-        "profile": "Аккаунт"
+        "profile": "Аккаунт",
+        "mail_sent": "An email was sent to you, please check your mailbox and your spams. If you received nothing after 5mn, try again :",
+        "submit": "Submit"
     },
 
     "UserMenu": {
@@ -34,7 +36,8 @@
     "Error": {
         "e404": "Ошибка 404 : Страница не найдена",
         "default": "Произошла ошибка",
-        "form": "Error in the form"
+        "form": "Error in the form",
+        "pp": "Edit the passphrase is not available for now"
     },
 
     "Register": {
@@ -58,8 +61,8 @@
         "error": "An error occured when creating the account.",
         "bruteforceErr1": "Warning: following a large number of requests from you, you have only 3 attempts still",
         "bruteforceErr2": "You reached the maximum allowed number of requests.",
-        "subject": "Muoium Cloud - Account validation",
-        "message": "Welcome to Muoium Cloud and thank you for your registration.<br />To validate your account, follow this link : <a href='https://quantacloud.ch/core/Validate/Key/[id_user]/[key]'>https://quantacloud.ch/core/Validate/Key/[id_user]/[key]</a><br />Best regards,<br />Quanta Cloud Team<br /><br />This email was automatically generated, please do not answer."
+        "subject": "Quanta Cloud - Account validation",
+        "message": "Welcome to Quanta Cloud and thank you for your registration.<br />To validate your account, follow this link : <a href='https://quantacloud.ch/core/Validate/Key/[id_user]/[key]'>https://quantacloud.ch/core/Validate/Key/[id_user]/[key]</a><br />Best regards,<br />Quanta Cloud Team<br /><br />This email was automatically generated, please do not answer."
     },
 
     "Login": {
@@ -93,5 +96,14 @@
         "badOldPassphrase": "Your old passphrase does not match",
         "getpwd": "Unable to get your password",
         "getpp": "Unable to get your passphrase"
+    },
+
+    "LostPass": {
+        "updateErr": "Unable to update your account information",
+        "updateOk": "Your account information have been successfully updated",
+        "errmessage": "Error : The validation key is wrong or it expired, <a href='LostPass'>please make a new request</a> and retype your username or email.",
+        "user": "Your email or your username",
+        "subject": "Quanta Cloud - Forgot your password",
+        "message": "Hi, for updating your Quanta Cloud's password or passphrase, please follow this link : <a href='https://quantacloud.ch/core/LostPass/Key/[id_user]/[key]'>https://quantacloud.ch/core/LostPass/Key/[id_user]/[key]</a><br />Best regards,<br />Quanta Cloud Team<br /><br />This email was automatically generated, please do not answer."
     }
 }
