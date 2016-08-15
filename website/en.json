@@ -73,8 +73,6 @@
 		"howFundedAns": "No, Muonium policy is to not belong to any company (except ours), not to receive help from big companies, in order to not jeopardize our privacy policy, etc... Thus, Muonium is only funded through your donations. You can take a ride in the <a href='Donate'>'Donate' section</a> if you are interested.",
 		"helpTerrorism": "Are you trying to help terrorists or evil organizations ?",
 		"helpTerrorismAns": "No, we advocate privacy, certainly helping the world get a better privacy, we unwittingly helping terrorism. But we're in the same situation as <a href='https://protonmail.com/blog/privacy-encryption-and-terrorism/'>ProtonMail</a>. In any case, even if we wouldn't develop Muonium, terrorists and any other person or group of people will encrypt their data.",
-		"helpMoney": "Are you trying to make money by our privacy ?",
-		"helpMoneyAns": "We are building a Internet which respects the user privacy. We are not making a commercial project to, at the end, buy a luxury car.",
 		"anotherQuestion": "Another question ?",
 		"anotherQuestionAns": "Our FAQ will be updated as we receive new questions. You can contact us at : <b>quantacloud [AT] protonmail [DOT] ch"
 	},

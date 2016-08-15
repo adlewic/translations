@@ -69,12 +69,10 @@
 		"whoCanAccessMyFilesAns": "Seul vous pouvez accéder à vos fichiers. Sans rentrer dans les termes techniques. Vous avez besoin d'une paire de clés (publique et privée) pour chiffrer et déchiffrer vos fichiers et ces clés sont elles-mêmes chiffrées à l'aide de votre mot de passe de chiffrement. Ainsi, personne, même pas nous, ne peut accéder à vos fichiers à part vous.",
 		"howEncrypted": "Comment sont chiffrés mes fichiers ?",
 		"howEncryptedAns": "Vos fichiers sont chiffrés de bout-en-bout avec l'outil <a href='http://bitwiseshiftleft.github.io/sjcl/'>SJCL</a> au niveau de votre navigateur à l'aide de votre clé personnelle, elle aussi déchiffrée au niveau de votre navigateur. Ainsi, les données qui sont envoyées sont déjà chiffrées et personne d'autre à part vous ne peut les déchiffrer.",
-		"howFunded": "Comment est financé Muonium, reçoit-il de l'aide de société ?",
+		"howFunded": "Comment est financé Muonium, reçoit-il de l'aide d'une quelconque société ?",
 		"howFundedAns": "Non, Muonium a pour principe de n'appartenir à aucune société (à part la nôtre), de ne pas recevoir d'aide de grosses sociétés, afin de ne pas mettre en péril sa politique de confidentialité, etc... Ainsi, Muonium est seulement financé à l'aide de vos dons. Vous pouvez faire un tour dans <a href='Donate'>la section  \"Dons\"</a> si cela vous intéresse.",
 		"helpTerrorism": "Tentez-vous d'aider les terroristes, ou organisations malfaisantes ?",
 		"helpTerrorismAns": "Non, nous prônons la vie privée, certes, en aidant le monde à obtenir une meilleure vie privée, nous aidons involontairement le terrorisme. Mais nous sommes dans le même cas que <a href='https://protonmail.com/blog/privacy-encryption-and-terrorism/'>ProtonMail</a>. Dans tous les cas, même si nous ne développerions pas Muonium, les terroristes ainsi que toute autre personne ou groupe de personnes chiffreraient.",
-"helpMoney": "Tentez-vous de faire de l'argent sur notre vie privée ?",
-		"helpMoneyAns": "Nous sommes en train de constuire un Internet qui respecte la vie privée des utilisateurs. Nous ne sommes pas en train de constuire un projet commercial pour, que finalement, nous achetions une voiture de luxe.",
 		"anotherQuestion": "Une autre question ?",
 		"anotherQuestionAns": "Notre FAQ sera mise à jour au fur et à mesure de vos questions. Vous pouvez nous contacter à l'adresse suivante : <b>quantacloud [AT] protonmail [DOT] ch"
 	},
