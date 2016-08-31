@@ -14,7 +14,8 @@
         "refresh": "Actualiser",
         "profile": "Profil",
         "mail_sent": "Un email vous a été envoyé, veuillez vérifier votre boîte de réception et vos spams. Si vous n'avez rien reçu au bout de 5mn, tentez à nouveau :",
-        "submit": "Valider"
+        "submit": "Valider",
+        "bug": "Send a bug report"
     },
 
     "UserMenu": {
@@ -37,7 +38,8 @@
         "e404": "Erreur : Page non trouvée",
         "default": "Une erreur est survenue",
         "form": "Erreur dans le formulaire",
-        "pp": "Impossible de modifier votre passphrase pour le moment"
+        "pp": "Impossible de modifier votre passphrase pour le moment",
+        "bannedSession": "Vous avez atteint le nombre maximum autorisé de requêtes"
 	},
 
     "Register": {
@@ -46,6 +48,7 @@
         "password": "Mot de passe",
         "confirm": "Confirmez",
         "passphrase": "Passphrase",
+        "doubleAuth": "Voulez vous activer la double authentication ?",
         "alreadyregistered": "Déjà inscrit ?",
         "impossible": "Inscriptions impossibles pour le moment",
         "ok": "Inscription effectuée avec succès !",
@@ -59,6 +62,7 @@
         "loginFormat": "Le format du pseudo est incorrect (entre 2 et 20 caractères alphanumérique, -_. autorisés).",
         "mailFormat": "Le format de l'adresse email est incorrect.",
         "error": "Une erreur est survenue lors de la création du compte.",
+        "bruteforceErr0": "",
         "bruteforceErr1": "Attention : Suite à un grand nombre de requêtes de votre part, il ne vous reste plus que 3 tentatives",
         "bruteforceErr2": "Vous avez atteint le nombre maximal de requêtes autorisées.",
         "subject": "Muonium - Validez votre compte",
@@ -70,7 +74,12 @@
         "register": "Pas encore inscrit ?",
         "bruteforceErr0": "Adresse email ou mot de passe invalide",
         "bruteforceErr1": "Attention : Suite à un grand nombre de requêtes de votre part, il ne vous reste plus que 3 tentatives",
-        "bruteforceErr2": "Vous avez atteint le nombre maximal de requêtes autorisées."
+        "bruteforceErr2": "Vous avez atteint le nombre maximal de requêtes autorisées.",
+        "doubleAuthMessage": "Bonjour, votre code d'authentification est [key]<br />Cordialement,<br />L'équipe Muonium<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre.",
+        "codeMail": "Code reçu par email",
+        "expired": "Le code est expiré, veuillez vous connecter à nouveau",
+        "invalidCode": "Le code entré est invalide",
+        "doubleAuth": "Un email avec un code d'authentification vous a été envoyé. Copiez ce code dans le champ ci-dessus.<br />Si vous n'avez rien reçu d'ici 5 mn et que le mail n'est pas présent dans le dossier Spam, suivez ce <a href='https://muonium.ch/core/Logout'>lien</a> pour effectuer une nouvelle tentative de connexion."
     },
 
     "Validate": {
@@ -97,7 +106,9 @@
         "badOldPass": "Votre ancien mot de passe ne correspond pas",
         "badOldPassphrase": "Votre ancienne passphrase ne correspond pas",
         "getpwd": "Impossible de récupérer le mot de passe",
-        "getpp": "Impossible de récupérer la passphrase"
+        "getpp": "Impossible de récupérer la passphrase",
+        "doubleAuth": "Double authentification",
+        "warningpp": "Attention ! Vous pouvez changer votre passphrase seulement <strong>2</strong> fois par mois. Vous l'avez déjà changé [count] fois !"
     },
 
     "LostPass": {
@@ -106,7 +117,8 @@
         "errmessage": "Erreur : La clé de validation est incorrecte ou est expirée, veuillez <a href='LostPass'>refaire une demande de mot de passe perdu</a> et saisir votre nom d'utilisateur ou votre email.",
         "user": "Votre adresse email ou nom d'utilisateur",
         "subject": "Muonium - Mot de passe oublié",
-        "message": "Bonjour,<br />Afin de modifier votre mot de passe ou votre passphrase, veuillez suivre ce lien : <a href='https://muonium.ch/core/LostPass/Key/[id_user]/[key]'>https://muonium.ch/core/LostPass/Key/[id_user]/[key]</a><br />Cordialement,<br />L'équipe Muonium<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre."
+        "message": "Bonjour,<br />Afin de modifier votre mot de passe ou votre passphrase, veuillez suivre ce lien : <a href='https://muonium.ch/core/LostPass/Key/[id_user]/[key]'>https://muonium.ch/core/LostPass/Key/[id_user]/[key]</a><br />Cordialement,<br />L'équipe Muonium.<br /><br />Ce mail a été généré automatiquement, merci de ne pas y répondre.",
+        "reset": "Attention ! Si vous changez votre passphrase, votre compte sera remis à zéro et vous perdrez vos données !"
     },
 
     "RightClick": {
@@ -123,5 +135,16 @@
         "nFolder": "Nouveau dossier...",
         "upFiles": "Charger des fichiers...",
         "logOut": "Se déconnecter"
+    },
+
+    "Bug": {
+        "os": "Système d'exploitation",
+        "other": "Autre (spécifier dans le message)",
+        "browser": "Navigateur Internet",
+        "browserVersion": "Version du navigateur",
+        "message": "Message",
+        "messageLength": "Le message doit être composé de 50 caractères minimum",
+        "form": "Erreur dans le formulaire",
+        "sent": "Votre message a été envoyé avec succès. Nous vous répondrons dès que possible par e-mail"
     }
 }
