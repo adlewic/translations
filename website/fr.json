@@ -68,7 +68,7 @@
 		"losePwd": "J'ai perdu mon mot de passe, comment le récupérer ?",
 		"losePwdAns": "S'il s'agit de votre mot de passe d'identification, vous avez un lien sur la page de connexion \"Mot de passe oublié ?\". Votre mot de passe sera réinitialisé et un mail vous sera envoyé avec un mot de passe temporaire.<br />En revanche, si c'est votre mot de passe de déchiffrement, il nous est impossible d'en redéfinir un et il faut considérer que tous vos fichiers sont perdus.",
 		"whoCanAccessMyFiles": "Qui peut accéder à mes fichiers ?",
-		"whoCanAccessMyFilesAns": "Seul vous pouvez accéder à vos fichiers. Sans rentrer dans les termes techniques. Vous avez besoin d'une paire de clés (publique et privée) pour chiffrer et déchiffrer vos fichiers et ces clés sont elles-mêmes chiffrées à l'aide de votre mot de passe de chiffrement. Ainsi, personne, même pas nous, ne peut accéder à vos fichiers à part vous.",
+		"whoCanAccessMyFilesAns": "Seul vous pouvez accéder à vos fichiers. Sans rentrer dans les termes techniques. Vous avez besoin d'une clé (la \"passphrase\") pour chiffrer et déchiffrer vos fichiers. Ainsi, personne, même pas nous, ne peut accéder à vos fichiers à part vous.",
 		"howEncrypted": "Comment sont chiffrés mes fichiers ?",
 		"howEncryptedAns": "Vos fichiers sont chiffrés de bout-en-bout avec l'outil <a href='http://bitwiseshiftleft.github.io/sjcl/'>SJCL</a> au niveau de votre navigateur à l'aide de votre clé personnelle, elle aussi déchiffrée au niveau de votre navigateur. Ainsi, les données qui sont envoyées sont déjà chiffrées et personne d'autre à part vous ne peut les déchiffrer.",
 		"howFunded": "Comment est financé Muonium, avez-vous de l'aide d'une quelconque société ?",
