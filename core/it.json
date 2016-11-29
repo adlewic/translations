@@ -15,7 +15,8 @@
         "profile": "Profilo",
         "mail_sent": "Ti è stata inviata una mail, per favore controlla la tua casella di posta e lo spam. Se dopo 5 minuti non hai ricevuto nulla, riprova:",
         "submit": "Invia",
-        "bug": "Invia un bug report"
+        "bug": "Invia un bug report",
+        "loading": "Caricamento..."
     },
 
     "UserMenu": {
@@ -40,6 +41,18 @@
         "form": "Errore nel form",
         "pp": "La modifica della frase di sicurezza al momento non è disponibile",
         "bannedSession": "Hai raggiunto il numero massimo di richieste consentite"
+    },
+
+    "User": {
+        "lastmod": "Ultima modifica",
+        "loaded": "Caricato in",
+        "folder": "Nome cartella",
+        "questiond": "Desideri rimuovere questa cartella?",
+        "questionf": "Desideri rimuovere questo file?",
+        "questionrm": "Desideri rimuovere questi files/cartelle?",
+        "trash_0": "Guarda il cestino",
+        "trash_1": "Esci dal cestion",
+        "path": "Percorso"
     },
 
     "Register": {
@@ -79,6 +92,7 @@
         "codeMail": "Codice ricevuto via mail",
         "expired": "Il codice è scaduto, ti preghiamo di effettuare nuovamente il login",
         "invalidCode": "Il codice inserito non è valido",
+        "username": "Email o login",
         "doubleAuth": "Ti è stata inviata una mail con un codice identificativo. Copia il codice nel campo qui sopra.<br />Se non ricevi nulla entro 5 minuti e la mail non è presente nella tua cartella di spam, <a href='https://muonium.ch/core/Logout'>clicca qui</a> per effettuare un nuovo tentativo di connessione."
     },
 
@@ -132,7 +146,9 @@
         "open": "Apri",
         "nFolder": "Nuova cartella...",
         "upFiles": "Carica files...",
-        "logOut": "Log out"
+        "logOut": "Log out",
+        "trash": "Cestino",
+        "restore": "Ripristina"
     },
 
     "Bug": {
