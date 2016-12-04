@@ -40,10 +40,14 @@
 		"PaulLife": "Paul is a high school student who likes many sciences and IT. He manages the infrastructure, the data storage systems, the servers, and, the Muonium team. Privacy on Internet is a subject very important to him. Not forgetting that he takes a lot of interest in mangas, animes, dramas, Japan, and the open source community.",
 		"DylanRole": "Co-founder &amp; Back-end developer",
 		"DylanLife": "Dylan develops the back-end, and help Paul to manage the Muonium project. Also, he deals programming techniques for the web application. Passionate about IT, and having a higher technician diploma in computing, he is currently studying the web application development in professional degree.",
-		"GioRole": "Technical support service",
+		"GioRole": "Co-founder &amp; Technical support service",
 		"GioLife": "Giovanni is a high school student, in the same high school as Paul. He help users and eventually, enterprises. He is passionate about web technologies, hardware and Android. He likes watching animes and series.",
-    "thanksTo": "Thanks to"
-	},
+    "thanksTo": "Thanks to",
+    		"ElmerRole": "Front-end developer",
+    		"ElmerLife": "Electronics Engineer by profession but found real passion in web programming. Completed degree in Electronics and Communication Engineering in 1999. Happily challenged at Muonium as Frontend Developer. Other hobbies include playing musical instruments such as bass, guitar, piano and drums",
+    		"ImeldaRole": "Designer &amp; front-end developer",
+    		"ImeldaLife": "Imelda is a multidisciplinary digital media designer from Mexico City who loves practicality and simplicity. Interfaces and transmedia are her passion. Creating enjoyable products with meaningful and friendly experiences is her main purpose. She also likes messing around with Calligraphy and Motion graphics."
+	},----> @TODO push the Basma and Aya descriptions + Aya's pic
 
 	"adventure": {
 		"phase": "Phase",
@@ -85,7 +89,7 @@
 		"filesEncryption": "Files encryption",
 		"filesEncryptionTxt": "We use end-to-end encryption. This means that whatever the stage (upload, storage, download), your file will still be encrypted. Thus, if someone intercept the communications, the attacker will never read your files. The encryption algorithm used is <b>AES</b> with <a href='http://bitwiseshiftleft.github.io/sjcl/'>SJCL</a> (which is a complete and open source implementation of AES) which allows a <b>256 bits encryption (equivalent of more RSA 2048)</b>. When creating an account, the user defines one personal passphrase (it's a password) in order to encrypt and decrypt his files. With this principle, we can't decrypt your files. When you are logging, your passphrase will be stored in your browser to enable the encryption and decryption locally. This keeps the file encrypted at any level (client, Internet, server).",
 		"SwissLaws": "Under the protection of Swiss laws",
-		"SwissLawsTxt": "Our servers will be located in <b>Switzerland</b>, like most projects that use encryption as a way to defend against mass espionage. The first advantage is its neutrality with the EU and the US, making it virtually invulnerable against government intrusions. In addition, Switzerland has legislation enabling encryption <b>without restrictions and without conditions</b> (unlike the USA with <a href='https://en.wikipedia.org/wiki/Patriot_Act'>the Patriot Act</a>). Our servers will be located in Switzerland, secured against physical intrusions. Your files remain encrypted on server, making them invulnerable, even in the face of physical attacks.",
+		"SwissLawsTxt": "We are looking to deploy Muonium in Estonia, Lithuania, or Germany. Note, <a href=\"https://tutanota.com\">Tutanota</a> is installed in Germany. The servers will be certainly installed in Switzerland.",
 		"tripleAuth": "Triple-authentification",
 		"tripleAuthTxt": "Only you can access to your files. That is why we have developed a <b>authentication system with 3 layers</b>. The principle is quite simple: You enter <b>your login/mail and password</b> and submit, this is the first security layer. Once you're logged, you need to enter <b>your passphrase</b> to be able to decrypt your key, then allows the decryption of your files, this corresponds to the second layer. But we thought that an additional layer provides more security. After your passphrase, <b>a mail with a code will be send</b>, you need to enter the received code on the page to be totally logged. All this may be a little long, but strengthens the security of your account.<br />This system is inspired by the <a href='https://en.wikipedia.org/wiki/Multi-factor_authentication'>double-authentification</a> made by some sites like Gmail or Facebook."
 	}
